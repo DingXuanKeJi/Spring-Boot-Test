@@ -11,9 +11,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class WxApplication {
 
 	public static void main(String[] args) {
-	    SpringApplication SpringApplication = new SpringApplication(WxApplication.class);
-	    SpringApplication.setAddCommandLineProperties(false);
-	    SpringApplication.run(args);
-//		SpringApplication.run(WxApplication.class, args);
+	    // SpringApplication SpringApplication = new SpringApplication(WxApplication.class);
+	    // SpringApplication.setAddCommandLineProperties(false);
+	    // SpringApplication.run(args);
+		SpringApplication.run(WxApplication.class, args);
 	}
 }
